@@ -14,6 +14,9 @@ The Schelling model presents urban segregation. We consider the square *L x L* a
 
 Nobody prefers total segregation (examples for 30% and 60%) but for this conditions we see spatial segregation. We can describe this as a macro-results from micro-behavior.
 
+# Motivation
+* e.g. segregation in US cities
+
 # Run
 schelling.py make initial state of *city* (before.png) and return its state after simulation (after.png)
 
