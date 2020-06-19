@@ -1,0 +1,6 @@
+{
+  "happiness_threshold": 0.6,
+  "size": 20,
+  "density": 90,
+  "trials": 10000
+}
