@@ -1,4 +1,4 @@
-from simulation.schelling import *
+import simulation.schelling as schelling
 import json
 
 
@@ -12,10 +12,10 @@ def main():
     # JSON (JavaScript Object Notation)
     filename = "config.json"
     kwargs = parameters(filename)
-    city = City(**kwargs)
-    city.plot('before.png')
+    city = schelling.City(**kwargs)
+    print(city)
     city.simulation()
-    city.plot('after.png')
+    city.plot('afterSimulation.png')
 
 
 if __name__ == '__main__':
